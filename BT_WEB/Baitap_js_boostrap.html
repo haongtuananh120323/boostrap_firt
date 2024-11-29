@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <script src="Baitap_js_boostrap.js"></script>
+    <title>Document</title>
+  </head>
+  <body class="bg-secondary">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 bg-white">
+          <div class="nav-pills">
+            <h1 class="">Phần danh mục</h1>
+            <a href="" class="nav-link">Danh mục 1</a>
+            <a href="" class="nav-link">Danh mục 2</a>
+            <a href="" class="nav-link">Danh mục 3</a>
+            <a href="" class="nav-link">Danh mục 4</a>
+            <a href="" class="nav-link">Danh mục 5</a>
+            <a href="" class="nav-link">Danh mục 6</a>
+          </div>
+          <h1 class="text-center">Phần danh mục</h1>
+          <div class="navbar">
+            <a href="" class="nav-link">Danh mục 1</a>
+            <a href="" class="nav-link">Danh mục 2</a>
+            <a href="" class="nav-link">Danh mục 3</a>
+            <a href="" class="nav-link">Danh mục 4</a>
+            <a href="" class="nav-link">Danh mục 5</a>
+            <a href="" class="nav-link">Danh mục 6</a>
+            <a href="" class="nav-link">Danh mục 6</a>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="row">
+        <div class="col-12 bg-white my-auto">
+          <h1 class="text-center">Item</h1>
+          <div class="col-6 card mx-auto my-5">
+            <div class="card-header">
+              <img src="image.png" alt="" class="card-img-top" />
+            </div>
+            <div class="card-body">
+              <h3 class="card-title text-center">Tiêu đề</h3>
+              <p class="card-text text-justify">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore aliquam fuga, voluptas, soluta ducimus eius quos
+                aspernatur molestias architecto debitis laborum. Debitis, illum.
+                Laboriosam excepturi, officiis asperiores eligendi corporis
+                aliquid.
+              </p>
+            </div>
+            <div class="card-footer m-auto">
+              <div class="btn-group dropup">
+                <button
+                  type="button"
+                  class="btn btn-info dropdown-toggle dropdown-menu-left"
+                  data-toggle="dropdown"
+                >
+                  Parent
+                </button>
+                <div class="dropdown-menu">
+                  <button class="dropdown-item">Item 1</button>
+                  <button class="dropdown-item">Item 2</button>
+                  <button class="dropdown-item">Item 3</button>
+                  <button class="dropdown-item">Item 4</button>
+                </div>
+              </div>
+              <div class="btn-group dropright">
+                <button
+                  type="button"
+                  class="btn btn-info dropdown-toggle dropdown-menu-left"
+                  data-toggle="dropdown"
+                >
+                  Parent
+                </button>
+                <div class="dropdown-menu">
+                  <button class="dropdown-item">Item 1</button>
+                  <button class="dropdown-item">Item 2</button>
+                  <button class="dropdown-item">Item 3</button>
+                  <button class="dropdown-item">Item 4</button>
+                </div>
+              </div>
+              <div class="btn-group">
+                <button
+                  type="button"
+                  class="btn btn-info dropdown-toggle dropdown-menu-left"
+                  data-toggle="dropdown"
+                >
+                  Parent
+                </button>
+                <div class="dropdown-menu">
+                  <button class="dropdown-item">Item 1</button>
+                  <button class="dropdown-item">Item 2</button>
+                  <button class="dropdown-item">Item 3</button>
+                  <button class="dropdown-item">Item 4</button>
+                </div>
+              </div>
+              <div class="btn-group dropleft">
+                <button
+                  type="button"
+                  class="btn btn-info dropdown-toggle dropdown-"
+                  data-toggle="dropdown"
+                >
+                  Parent 2
+                </button>
+                <div class="dropdown-menu">
+                  <button class="dropdown-item">Item 1</button>
+                  <button class="dropdown-item">Item 2</button>
+                  <button class="dropdown-item">Item 3</button>
+                  <button class="dropdown-item">Item 4</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row bg-white">
+        <div class="col-5 m-auto">
+          <form method="post" action="" id="form_register">
+            <h1 class="text-center m-4">Đăng Ký thành viên</h1>
+            <div class="form-group row">
+              <label for="" class="col-4 pt-2">Tên tài khoản:</label>
+              <div class="col-8">
+                <input type="text" name="user" id="user" class="form-control" />
+                <span class="thongbao text-danger"></span>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="" class="col-4 pt-2">Email:</label>
+              <div class="col-8">
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  class="form-control"
+                />
+                <span class="thongbao text-danger"></span>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="" class="col-4 pt-2">Tỉnh:</label>
+              <div class="col-8">
+                <select name="adress" id="adress" class="form-control">
+                  <option value="">---Chọn tỉnh---</option>
+                  <option value="hanoi">Hà nội</option>
+                  <option value="tphcm">TPHCM</option>
+                  <option value="thainguyen">Thái Nguyên</option>
+                  <option value="quangninh">Quảng Ninh</option>
+                  <option value="thaibinh">Thái Bình</option>
+                  <option value="bacninh">Bắc Ninh</option>
+                  <option value="binhduong">Bình Duong</option>
+                </select>
+                <span class="thongbao text-danger"></span>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="" class="col-4 pt-2">Giới tính:</label>
+              <div class="col-8">
+                <div>
+                  <div class="form-check-inline">
+                    <label for="" class="pt-1 pr-2">Nam</label>
+                    <input
+                      type="radio"
+                      name="gt"
+                      value="Nam"
+                      class="form-check"
+                    />
+                  </div>
+                  <div class="form-check-inline">
+                    <label for="" class="pt-1 pr-2">Nữ</label>
+                    <input
+                      type="radio"
+                      name="gt"
+                      value="Nu"
+                      class="form-check"
+                    />
+                  </div>
+                  <div class="form-check-inline">
+                    <label for="" class="pt-1 pr-2">Khác</label>
+                    <input
+                      type="radio"
+                      name="gt"
+                      value="Khac"
+                      class="form-check"
+                    />
+                  </div>
+                </div>
+                <span class="thongbao text-danger"></span>
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label for="" class="col-4 pt-2">CV:</label>
+              <div class="col-8">
+                <input type="file" name="cv" id="cv" class="form-control" />
+                <span class="thongbao text-danger"></span>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="" class="col-4 pt-2">Mật khẩu:</label>
+              <div class="col-8">
+                <input type="text" name="pass" id="pass" class="form-control" />
+                <span class="thongbao text-danger"></span>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="" class="col-4 pt-2">Nhập lại khẩu:</label>
+              <div class="col-8">
+                <input
+                  type="text"
+                  name="againpass"
+                  id="againpass"
+                  class="form-control"
+                />
+                <span class="thongbao text-danger"></span>
+              </div>
+            </div>
+            <div class="form-group row">
+              <button type="submit" class="btn btn-success m-auto px-3">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <br />
+      <hr />
+      <div class="row">
+        <div class="col-12 bg-white p-0">
+          <h1 class="text-center">Modal- thông báo - form- table...</h1>
+          <div class="col-12 d-flex">
+            <h1 class="text-center text-danger">
+              1. Modal chỉ thoát khi ấn nút
+            </h1>
+            <button
+              type="button"
+              class="btn btn-success m-auto"
+              data-toggle="modal"
+              data-target="#idmodal1"
+            >
+              Modal nôi dung
+            </button>
+            <!-- Modal  -->
+            <div
+              class="modal fade"
+              tabindex="-1"
+              data-backdrop="static"
+              id="idmodal1"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Thông báo này căn giữa màn hình</h4>
+                    <button
+                      type="button"
+                      class="nutthoat btn btn-secondary close p-0 m-1"
+                      data-dismiss="modal"
+                      onclick="xacnhan()"
+                    >
+                      &times;
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h3 class="modal-title">
+                      Bắt lỗi xác nhận thoát nội dung- chỉ thoát khi ấn nút
+                      thoát hoặc x
+                    </h3>
+                    <p class="text-body">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Ipsa et harum laudantium repudiandae quos eveniet expedita
+                      nisi id dicta magni pariatur, possimus fugit! Soluta
+                      eligendi eius aperiam distinctio quos hic?
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="nutthoat btn btn-secondary"
+                      data-dismiss="modal"
+                      onclick="xacnhan()"
+                    >
+                      close
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-success"
+                      data-dismiss="modal"
+                    >
+                      OK
+                    </button>
+                    <script>
+                      //em viết đây cho anh rễ xem ạ
+                      function xacnhan() {
+                        var nutthoat = document.querySelector(".nutthoat");
+                        if (confirm("Bạn xác nhận thoát nội dung này chứ!")) {
+                          nutthoat.setAttribute("data-dismiss", "modal");
+                        } else {
+                          nutthoat.setAttribute("data-dismiss", "");
+                        }
+                      }
+                    </script>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal  -->
+          </div>
+          <div class="col-12 d-flex">
+            <h1 class="text-center text-danger">1. Modal Submit form</h1>
+            <button
+              type="button"
+              class="btn btn-success m-auto"
+              data-toggle="modal"
+              data-target="#modal2"
+            >
+              Form đăng nhập tài khoản-Cuộn khi nd quá dài
+            </button>
+            <!-- Modal  -->
+          <div >
+            <div class="modal  fade " tabindex="-1" id="modal2">
+              <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content col-10">
+                  <div class="modal-header">
+                    <h4 class="modal-title">
+                      <a href="" class="nav-item">Đăng ký</a>
+                    </h4>
+                    <button
+                      type="button"
+                      id="thoatmodal2"
+                      class="btn btn-secondary close p-0 m-1"
+                      data-dismiss="modal"
+                    >
+                      &times;
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h3 class="modal-title text-center">Đăng nhập</h3>
+                    <form method="post" action="" id="form_login">
+                      <div class="form-group">
+                        <label for="tendn" >Tên đăng nhập:</label>
+                       
+                        
+                          <input
+                          type="text"
+                          name="tendangnhap"
+                          id="tendangnhap"
+                          class="form-control"
+                        />
+                       
+                        <span class="thongbao text-danger"></span>
+                      </div>
+                      <div class="form-group">
+                       
+                     
+                        <label for="tendn">Mật khẩu:</label>
+                        <input
+                        type="text"
+                        name="matkhau"
+                        id="matkhau"
+                        class="form-control"
+                      />
+                     
+                        <span class="thongbao text-danger"></span>
+                      </div>
+                      <div class="form-group">
+                       
+                       <button type="submit" class="btn btn-success form-control">Submit</button>
+                       <label for="" class="ml-5">Bạn chưa có tài khoản dăng ký <a href=""data-toggle="modal" onclick="chuyenmodal()"
+                        data-target="#idmodal1">tại đây</a></label>
+                      </div>
+                      <script>
+                        function chuyenmodal(){
+                          var thoatmodal2 = document.getElementById('thoatmodal2') 
+                          thoatmodal2.click()
+
+                        }
+
+                      </script>
+                    
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      colse
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+            <!-- Modal  -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mb-5"></div>
+
+    <script>
+      Validator({
+        form: "form_register",
+        timthecungcap: ".col-8",
+        thebaoloi: ".thongbao",
+        rules: [
+          Validator.isRequired("#user", "Vui lòng nhập trường này!"),
+          Validator.isRequired("#email", "Vui lòng nhập trường này!"),
+          Validator.isEmail("#email"),
+          Validator.isRequired("#adress", "Vui lòng nhập trường này!"),
+          Validator.isRequired(
+            '#form_register [type="radio"]',
+            "Vui lòng chọn giới tính!"
+          ),
+          Validator.isRequired("#cv", " Vui lòng tải lên file CV của bạn!"),
+          Validator.isRequired("#pass", "Vui lòng nhập trường này!"),
+          Validator.isMinlength("#pass", 6),
+          Validator.isSamepass(
+            "#againpass",
+            function () {
+              return document.querySelector("#form_register #pass").value;
+            },
+            " Mật khẩu không khớp!"
+          ),
+        ],
+        // quyết định gưi theo hành vi mặc định hoặc khong bằng cách chọn hoặc bỏ onSubmit()
+        onSubmit: function (date) {
+          console.log(date);
+        },
+      });
+Validator({
+  form: "form_login",
+  timthecungcap: ".form-group",
+  thebaoloi: ".thongbao",
+  rules:[
+  Validator.isRequired("#tendangnhap", "Vui lòng nhập trường này!"),
+  Validator.isRequired("#matkhau", "Vui lòng nhập trường này!"),
+  Validator.isMinlength("#matkhau", 6),
+
+  ],  onSubmit: function (date) {
+          console.log(date);
+        },
+
+})
+
+
+
+
+
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
